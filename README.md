@@ -1,6 +1,8 @@
 
 # Justino SOL Tools Extension (Chrome)
 
+[![](https://i.imgur.com/xeZRYX8.gif)](https://i.imgur.com/xeZRYX8.gif)
+
 ### ⭐ Features
 
 - Calcula a média final;
