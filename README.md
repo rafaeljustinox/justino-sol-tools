@@ -42,15 +42,16 @@ Estou trabalhando para disponibilizar a extensão lá dentro da Chrome Web Store
 [![](https://i.imgur.com/7TXoaNM.jpg)](https://i.imgur.com/7TXoaNM.jpg)
 
 * Pronto! A extensão foi importada.
+
 [![](https://i.imgur.com/YJ1cVsC.jpg)](https://i.imgur.com/YJ1cVsC.jpg)
 
 # Como utilizar?
-Essa é a parte mais fácil. Tudo que você precisa fazer é acessar a página das suas notas e frequências no SOL e clicar no ícone da extensão.
+Essa é a parte mais fácil. Tudo que você precisa fazer é acessar a página das suas notas e frequências no SOL e clicar no ícone da extensão. Caso você esteja aberto a página antes de instalar a extensão, recarregue a página para que o Chrome posse reconhecê-la. 
 
 ![](https://i.imgur.com/o1Jesxv.jpg)
 
 # Atualizações 
-Nesse repositório estarei disponibilizando sempre a versão mais atualizada. Esse projeto foi feito como uma POC. Em breve estarei disponibilizando na Chrome Web Store. A ideia final é desenvolver um app que conecta com seu SOL e trás muito mais funcionalidades. Já estou trabalhando nisso e pretendo disponibilizá-lo ainda em 2020. Então fique ligado!
+Nesse repositório estarei disponibilizando sempre a versão mais atualizada. Em breve estarei disponibilizando na Chrome Web Store. A ideia final é desenvolver um app que conecta com seu SOL e trás muito mais funcionalidades como integrações com o Google Assistente, Alexa e muito mais. Já estou trabalhando nisso e pretendo disponibilizar a primeira versão ainda em 2020. Então fique ligado favoritando esse repositório. 
 
 Caso encontre algum bug ou tenha alguma dúvida, me mande uma mensagem no meu Instagram ou abra uma Issue. 
 Até breve! 😉
