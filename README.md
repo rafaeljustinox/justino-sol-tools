@@ -7,7 +7,7 @@
 - Calcula a N2 mínima pra passar com média 6.0
 
 # O que é?
-**Justino SOL Tools** é uma extensão para o navegador **Google Chrome** facilita o **cálculo da média final** no Sistema Online do aluno (SOL) da PUC-GO.
+**Justino SOL Tools** é uma extensão para o navegador **Google Chrome** que facilita o **cálculo da média final** no Sistema Online do aluno (SOL) da PUC-GO.
 
 # Como funciona?
 A extensão extrai os valores das notas de cada disciplina, faz os cálculos e cria uma nova coluna "MF" com as médias finais. Caso tenha já tenha notas N1, a extensão também calcula a nota mínima de N2 que você precisa tirar pra passar na disciplina com média final 6.0.
