@@ -5,9 +5,6 @@ function run() {
 
 // Busca a linha das assinaturas na tabela
 function calcular() {
-
-  // Obtendo o nome do usuário
-  let nome = $('h4').text().split(' ')[0];
   
   // Adicionando header da média final
   $('.table-striped > thead > tr').append('<th width="6%" style="font-size:14px; text-align:center"><strong>MF</strong></th>');
