@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Configurações - Justino Sol Notas</title>
+  <link rel="stylesheet" href="./css/options.css">
+  <link rel="stylesheet" href="./css/social.css" >
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="main">
+
+      <button type="button" class="btn btn-outline-warning" id="add">Selecionar assinatura</button>
+
+      <input type="hidden" id="deleteHashId" />
+
+      <div class="input-group mb-3" id="file-container">
+        <div class="custom-file">
+          <label class="custom-file-label" for="inputSignature">Selecione sua assinatura</label>
+          <input type="file" class="custom-file-input" id="inputSignature">
+        </div>
+      </div>
+
+      <div class="mb-3" id="signature-container">
+        <img src="" alt="Assinatura" id="signatureImage">
+      </div>
+
+      <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="checkLogo">
+        <label class="custom-control-label" for="checkLogo">Corrigir logo da TOTVS</label>
+      </div>
+
+      <div id="status">Clique em "Salvar" para armazenar suas preferências</div>
+
+      <button type="button" class="btn btn-warning" id="save">Salvar</button>
+
+    </div>
+    
+    <footer class="social-container">
+      <ul class="social-icons">
+        <li><a target="_blank" href="https://github.com/rafaeljustinox"><i class="fa fa-github"></i></a></li>
+        <li><a target="_blank" href="https://instagram.com/rafaeljustinox"><i class="fa fa-instagram"></i></a></li>
+        <li><a target="_blank" href="https://linkedin.com/in/rafaeljustinox/"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="options.js"></script>
+</body>
+
+</html>

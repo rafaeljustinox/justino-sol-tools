@@ -1,0 +1,43 @@
+
+body {
+  min-width: 400px;
+  padding-bottom: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
+
+#file-container {
+  display: none;
+}
+
+#signature-container {
+  display: flex;
+  border: solid #eee 3px;
+  border-radius: 10px;
+}
+
+
+#signature-container img {
+  margin: auto;
+  max-width: 240px;
+}
+
+#status {
+  text-align: center;
+  font-size: 10pt;
+  margin: 10px 0;
+}
+
+#add {
+  margin: 10px 0;
+}
+
+
+.btn-justino {
+  background: #FEC107 !important;
+}
+
