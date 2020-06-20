@@ -16,12 +16,21 @@
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["/js/jquery-3.4.1.min.js", "script.js"]
+      "matches": [
+        "https://sol.pucgoias.edu.br/*",
+        "*://cdnjs.cloudflare.com/*",
+        "*://code.jquery.com/*",
+        "*://www.w3.org/*",
+        "*://pooper.js.org/*"
+      ],
+      "js": [
+        "/js/jquery-3.4.1.min.js",
+        "script.js"
+      ]
     }
   ],
   "permissions": [
-    "activeTab"
+    "https://sol.pucgoias.edu.br/*"
   ],
   "options_ui": {
     "page": "options.html"
