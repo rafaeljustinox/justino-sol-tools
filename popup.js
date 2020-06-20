@@ -1,6 +1,3 @@
-var link = '';
-var logo = false;
-
 $(function(){
 
   $('#calculate').on('click', function(){
@@ -31,8 +28,3 @@ $(function(){
   });
 
 })
-
-function init( data ) {
-  console.log('init()');
-  $('#nosignature-container').show();
-}

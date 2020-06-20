@@ -1,5 +1,4 @@
 function run() {
-  console.log('run() -> Executando script');
   calcular();
 }
 
@@ -12,14 +11,11 @@ function calcular() {
   // Calculando e adicionando as medias
   $('.table-striped > tbody > tr > td:last-child').each(function () {
     
-    //let ministradas = $(this).prev().prev().prev().text();
-    //let presencas = $(this).prev().prev().text();
     let n1 = $(this).prev().text();
     let n2 = $(this).text();
 
     if (n1 && n1 !== '-') {
-
-      //console.log(parseInt(presencas) / parseInt(ministradas) * 100 );
+      
       let minN2 = 0.0;
       if (isNaN(parseFloat(n2))) {
         minN2 = (0.4 * parseFloat(n1) - 6) / 0.6 * -1;
