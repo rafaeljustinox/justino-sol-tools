@@ -8,10 +8,10 @@
     "16": "images/icon_16.png",
     "32": "images/icon_32.png",
     "48": "images/icon_48.png",
-    "128": "images/icon_120.png"
+    "128": "images/icon_128.png"
   },
   "browser_action": {
-    "default_icon": "images/icon_120.png",
+    "default_icon": "images/icon_128.png",
     "default_popup": "popup.html"
   },
   "content_scripts": [
@@ -30,6 +30,7 @@
     }
   ],
   "permissions": [
+    "tabs",
     "https://sol.pucgoias.edu.br/*"
   ],
   "options_ui": {
