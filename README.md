@@ -1,29 +1,24 @@
-
-# Justino SOL Tools Extension (Chrome)
+# Justino SOL Tools 2.0 (Chrome)
 [![](https://i.imgur.com/7sdTaxZ.png)](https://chrome.google.com/webstore/detail/justino-sol-tools/lkafakblmjnmadfgmfmekflkebddcghf)
 
-[![](https://i.imgur.com/xeZRYX8.gif)](https://chrome.google.com/webstore/detail/justino-sol-tools/lkafakblmjnmadfgmfmekflkebddcghf)
+### 💡 Novidades
+- Agora as funcionalidades são executadas automaticamente quando você abre o SOL
 
-### ⭐ Features
-
-- Calcula a média final;
-- Calcula a N2 mínima pra passar com média 6.0
+### ⭐ Funcionalidades
+- Calcula a média final de acordo com as notas N1 e N2 atuais
+- Calcula a N2 mínima pra passar com média 6.0 caso ela ainda não tenha sido lançada
+- Corrige a logo da PUC na tela de login
 
 # O que é?
-**Justino SOL Tools** é uma extensão para o navegador **Google Chrome** que facilita o **cálculo da média final** no Sistema Online do aluno (SOL) da PUC-GO.
+**Justino SOL Tools** é uma extensão para o navegador **Google Chrome** que adiciona funcionalidades no **Sistema Online** do aluno da **PUC Goias** (https://sol.pucgoias.edu.br/aluno)
 
 # Como funciona?
-A extensão extrai os valores das notas de cada disciplina, faz os cálculos e cria uma nova coluna "MF" com as médias finais. Caso não tenha as notas N2, a extensão também calcula a N2 mínima que você precisa tirar pra passar na disciplina com média final 6.0.
+Quando você abre a página do SOL, a extensão irá adicionar algumas funcionalidades extras para facilitar sua vida. Consulte o item "Funcionalidades" para conferí-las.
 
 # Como instalar?
-Para instalar, basta clicar no botão abaixo. Você será redirecionado para a Chrome Web Store:
+Para instalar, basta clicar no botão abaixo. Você será redirecionado para a Chrome Web Store
 
 [![](https://i.imgur.com/7sdTaxZ.png)](https://chrome.google.com/webstore/detail/justino-sol-tools/lkafakblmjnmadfgmfmekflkebddcghf)
-
-# Como utilizar?
-Essa é a parte mais fácil. Tudo que você precisa fazer é acessar a página das suas notas e frequências no SOL e clicar no ícone da extensão. Caso você esteja aberto a página antes de instalar a extensão, recarregue a página para que o Chrome posse reconhecê-la. 
-
-![](https://i.imgur.com/o1Jesxv.jpg)
 
 # Atualizações 
 Nesse repositório estarei disponibilizando sempre a versão mais atualizada que está publicada na Chrome Web Store. A ideia final é desenvolver um app que conecta com seu SOL e trás muito mais funcionalidades como integrações com o Google Assistente, Alexa e muito mais. Já estou trabalhando nisso e pretendo disponibilizar a primeira versão ainda em 2020. Então fique ligado favoritando esse repositório. 
