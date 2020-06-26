@@ -2,6 +2,10 @@ body {
   min-width: 320px;
 }
 
+footer {
+  font-size: 10pt;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -10,27 +14,8 @@ body {
   align-items: center;
 }
 
-#nosignature-container, #signature-container {
-  display: flex;
-  flex-direction: column;
-}
-
-#signatureImage {
-  max-width: 240px;
-}
-
 #settings {
   margin: 10px 0;
-}
-
-#signature-help {
-  font-size: 9pt;
-  text-align: center;
-  margin: 10px 0;
-}
-
-footer {
-  font-size: 10pt;
 }
 
 .btn-justino {

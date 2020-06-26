@@ -1,9 +1,29 @@
-function run() {
-  calcular();
+$(function () {
+  router(window.location.pathname);
+});
+
+function router(path) {
+  switch (path) {
+    case '/aluno/login.asp':
+      adjustLoginPage();
+      break;
+    case '/notasfreq/':
+      calcularMedias();
+      break;
+    default:
+      break;
+  }  
 }
 
-// Busca a linha das assinaturas na tabela
-function calcular() {
+function adjustLoginPage() {
+  // Replacing PUC Logo
+  $('.logo-login').attr('src', 'https://vestibular.novopuc.com/wp-content/uploads/2019/12/LOGO-HORIZONTAL-01.png');
+  $('.logo-login').css('width', '190px');
+  // Login button
+  $('button[type=submit]').css('color', '#FFFFFF');
+}
+
+function calcularMedias() {
   
   // Adicionando header da média final
   $('.table-striped > thead > tr').append('<th width="6%" style="font-size:14px; text-align:center"><strong>MF</strong></th>');
@@ -19,7 +39,6 @@ function calcular() {
       let minN2 = 0.0;
       if (isNaN(parseFloat(n2))) {
         minN2 = (0.4 * parseFloat(n1) - 6) / 0.6 * -1;
-
         $(this).text(`min. ${minN2.toFixed(2)}`);
         $(this).attr('style', 'color: #ff0000; font-weight: bold; font-size:12px');
       }
@@ -42,7 +61,6 @@ function calcular() {
       $(this).prev().text('-');
       $(this).parent().append(`<td style="font-size:12px;" align="center" >-</td>`);
     }
-    
   });
 
 }
