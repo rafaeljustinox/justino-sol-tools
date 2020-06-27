@@ -36,6 +36,10 @@ body {
   margin: 10px 0;
 }
 
+.text-spaced{
+  margin: 8px 8px;
+}
+
 
 .btn-justino {
   background: #FEC107 !important;

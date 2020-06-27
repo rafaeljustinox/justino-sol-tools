@@ -1,4 +1,4 @@
-# Justino SOL Tools 2.0 (Chrome)
+# Justino SOL Tools 2.0.1 (Chrome)
 [![](https://i.imgur.com/7sdTaxZ.png)](https://chrome.google.com/webstore/detail/justino-sol-tools/lkafakblmjnmadfgmfmekflkebddcghf)
 
 ### 💡 Novidades

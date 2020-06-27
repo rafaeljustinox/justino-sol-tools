@@ -3,7 +3,7 @@
 
   "name": "Justino SOL Tools",
   "description": "Turbinando o sistema online da PUC Goiás ",
-  "version": "2.0",
+  "version": "2.0.1",
   "icons": {
     "16": "images/icon_16.png",
     "32": "images/icon_32.png",
@@ -27,7 +27,6 @@
     }
   ],
   "permissions": [
-    "activeTab",
     "https://sol.pucgoias.edu.br/*"
   ],
   "options_ui": {
