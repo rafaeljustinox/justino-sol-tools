@@ -21,7 +21,7 @@ Para instalar, basta clicar no botão abaixo. Você será redirecionado para a C
 [![](https://i.imgur.com/7sdTaxZ.png)](https://chrome.google.com/webstore/detail/justino-sol-tools/lkafakblmjnmadfgmfmekflkebddcghf)
 
 # Atualizações 
-Nesse repositório estarei disponibilizando sempre a versão mais atualizada que está publicada na Chrome Web Store. A ideia final é desenvolver um app que conecta com seu SOL e trás muito mais funcionalidades como integrações com o Google Assistente, Alexa e muito mais. Já estou trabalhando nisso e pretendo disponibilizar a primeira versão ainda em 2020. Então fique ligado favoritando esse repositório. 
+Nesse repositório estarei disponibilizando sempre a versão mais atualizada que está publicada na Chrome Web Store. A ideia final é desenvolver um app que conecta com seu SOL e trás muito mais funcionalidades como integrações com o Google Assistente, Alexa e muito mais.
 
 Caso encontre algum bug ou tenha alguma dúvida, me mande uma mensagem no meu Instagram ou abra uma Issue. 
 Até breve! 😉
